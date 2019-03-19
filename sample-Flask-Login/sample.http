@@ -1,0 +1,11 @@
+POST /login
+Host: localhost:5000
+
+###
+
+GET /user
+Host: localhost:5000
+Cookie: session=XXX;
+
+###
+
