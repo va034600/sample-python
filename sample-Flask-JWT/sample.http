@@ -1,0 +1,17 @@
+POST /auth HTTP/1.1
+Host: localhost:5000
+Content-Type: application/json
+
+{
+    "username": "user1",
+    "password": "abcxyz"
+}
+
+###
+
+GET /protected HTTP/1.1
+Host: localhost:5000
+Authorization: JWT XXXX
+
+###
+
