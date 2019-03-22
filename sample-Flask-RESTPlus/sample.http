@@ -1,0 +1,9 @@
+POST /users/123
+Host: localhost:5000
+Content-Type: application/json
+
+{
+  "user_name": "aaa"
+}
+
+###
